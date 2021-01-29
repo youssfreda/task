@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Reminder</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <script type="module" src="reminder.js"></script>
+      
+    <div class="todo-body">
+      
+      <p>Event Title</p>
+      <div class="add-box">
+        <input type="text" placeholder="Enter Event Title" />
+      </div>
+
+      <p>Event Date and Time</p>
+      <div class="add-box">
+        <input type="datetime-local" step="1" id="eventtime" name="eventtime" />
+      </div>
+      
+      <span class="plus btn btn-primary">Start</span>
+      
+      <div class="tasks-list"></div>
+    </div>
+
+
+  </body>
+</html>
